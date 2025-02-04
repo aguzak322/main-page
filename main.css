@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Jost";
+    font-weight: 500;
+    color: #000;
+    font-size: 32px;
+}
+
+.wrapper {
+    background-color: #fff;
+}
+
+.rectangle {
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+}
+
+.btn {
+    background-color: #fff;
+    width: 10%;
+    height: 50px;
+    border-radius: 50px;
+    font-family: "Jost";
+    font-weight: 500;
+    text-align: center;
+    font-size: 85%;
+    margin-left: 3.3%;
+    margin-top: 10px;
+    transform: scale(1);
+    transition: ease 500ms all;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #000;
+    color: #fff;
+    transition: all 500ms ease;
+}
+
+.cards {
+    padding-left: 18%;
+    padding-right: 18%;
+    padding-top: 50px;
+}
+
+.search-input {
+    width: 421px;
+    height: 51px;
+    border-radius: 40px;
+    border: 2px solid #ccc;
+    outline: none;
+    transition: border-color 0.3s;
+    padding-left: 21.98px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: 'Jost';
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 38%;
+    background: url(/photo/лупа.png) no-repeat 98% center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.search-input:focus {
+    border-color: #000000;
+}
+
+.logo {
+    position: absolute;
+    margin-left: 2.43%;
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
+
+.cont {
+    position: absolute;
+    margin-left: 95.9%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.rectanglepod {
+    width: 100%;
+    height: 4px;
+    background-color: #000;
+}
+
+.suprec {
+    width: 100%;
+    height: 300px;
+}
+
+.cart {
+    position: absolute;
+    padding-left: 9.25%;
+    padding-top: 30px;
+}
+
+.text {
+    position: relative;
+    padding-left: 9.24%;
+    padding-right: 9.24%;
+    font-size: 32px;
+    font-weight: 500;
+    text-indent: 73px;
+    padding-top: 36px;
+}
+
+.rectanglepod2 {
+    width: 100%;
+    height: 4px;
+    background-color: #000;
+    margin-top: 36px;
+}
+
+.support {
+    font-size: 32px;
+    font-weight: 500;
+    padding-left: 1%;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    font-family: 'Jost';
+    background-color: #fff;
+    border: none;
+}
+
+.botlogo {
+    position: absolute;
+    padding-left: 72%;
+}
